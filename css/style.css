@@ -171,3 +171,9 @@ li {
     color: #4158D0;
     transition: color 1s;
 }
+
+.img-portifolio {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
