@@ -1,0 +1,52 @@
+body {
+    background-image: url(../imagens/img-2.jpg);
+    background-size: 100vw auto;
+    background-repeat: no-repeat;
+    font-family: arial;
+    height: 100vh;
+    font-size: 12px;
+}
+
+@media (min-width: 400px){
+    body {
+        font-size: 14px;
+        background-image: none;
+        background-color: lightcyan;
+    }
+}
+
+/* breakpoint */
+@media (min-width: 1200px){
+    body {
+        font-size: 20px;
+        background-image: none;
+        background-color: lightblue;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: teal;
+}
+
+a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+}
+
+.menu ul {
+    list-style-type: none;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-subtitulo,
+.site-titulo {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-subtitulo {
+    font-style: italic;
+}
