@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Press+Start+2P&family=Source+Code+Pro:wght@300;400;700&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +9,7 @@ body {
     background-image: url(../imagens/img-2.jpg);
     background-size: 100vw auto;
     background-repeat: no-repeat;
-    font-family: arial;
+    font-family: 'Source Code Pro', monospace;
     height: 100vh;
     font-size: 12px;
 }
@@ -78,14 +79,35 @@ header {
 
 .site-titulo {
     font-size: 4em;
+    font-family: 'Gloria Hallelujah';
 }
 
 .site-subtitulo {
     font-style: italic;
+    font-family: 'Press Start 2P';
+    line-height: 1.8em;
 }
 
 .img-portifolio {
     height: 180px;
     width: 180px;
     object-fit: cover;
+}
+
+.portifolio {
+    padding: 2em;
+    height: 100vh;
+}
+
+.portifolio h3 {
+    font-family: 'Press Start 2P';
+    color:  whitesmoke;
+    margin-bottom: 1.5em;
+    font-size: 2em;
+}
+
+.portifolio .grid {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 240px 240px;
 }
